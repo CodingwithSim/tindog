@@ -2,7 +2,7 @@ class Dog {
     constructor(data) {
         Object.assign(this, data)
     }
-    
+
     getDogHtml() {
         const { name, avatar, age, bio } = this
         return `

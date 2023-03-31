@@ -1,126 +1,129 @@
  * body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    font-size: 62.5%;
-    box-sizing: border-box;
-}
+     font-family: 'Poppins', sans-serif;
+     margin: 0;
+     padding: 0;
+     font-size: 62.5%;
+     box-sizing: border-box;
+ }
 
-.container {
-    max-width: 55.0rem;
-    margin: auto auto;
-    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
-}
+ .container {
+     max-width: 30.0rem;
+     max-height: 55rem;
+     margin: auto auto;
+     background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+     border-radius: 15px;
+ }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 8.1rem;
-    padding: 0 1.3rem
-}
+ .header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 6.1rem;
+     padding: 0 1.3rem
+ }
 
-.profile-icon, .chat-icon {
-    width: 4.121rem;
-    height: 4.121rem;
-}
+ .profile-icon,
+ .chat-icon {
+     width: 3.121rem;
+     height: 3.121rem;
+ }
 
-.logo-icon {
-    width: 8.4rem;
-    height: 4.2rem;
-}
+ .logo-icon {
+     width: 7.4rem;
+     height: 3.2rem;
+ }
 
-.profile-container {
-    margin: 0 0.8rem;
-}
+ .profile-container {
+     margin: 0 0.8rem;
+ }
 
-#card .dog-img {
-    width: 100%;
-    border-radius: 15px;
-}
+ #card .dog-img {
+     width: 100%;
+     border-radius: 15px;
+ }
 
-#card {
-    position: relative;
-    width: 100%;
-}
+ #card {
+     position: relative;
+     width: 100%;
+ }
 
-.dog-info {
-    position: absolute;
-    color: #F8F8F8;
-    bottom: 1.6rem;
-    left: 2.0rem;
-    font-weight: 600;
-    font-size: 3.2rem;
-    line-height: 3.6rem;
-    padding-right: 1.5rem;
-}
+ .dog-info {
+     position: absolute;
+     color: #F8F8F8;
+     bottom: 1.6rem;
+     left: 2.0rem;
+     font-weight: 600;
+     font-size: 2.4rem;
+     padding-right: 1.5rem;
+ }
 
-.dog-bio {
-    font-weight: 300;
-    font-size: 2.4rem;
-    line-height: 3.2rem;
-    color: #B7B7B7;
-}
+ .dog-bio {
+     font-weight: 300;
+     font-size: 1.2rem;
+     color: #B7B7B7;
+ }
 
-p {
-    margin: 0.7rem 0
-}
+ p {
+     margin: 0;
+ }
 
-.actions{
-    display: flex;
-    justify-content: center;
-    gap:2.4rem
-}
+ .actions {
+     display: flex;
+     justify-content: center;
+     gap: 2.4rem
+ }
 
-.actions #reject-button, #accept-button {
-    border: none;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 20px #E9E9EA;
-    border-radius: 50%;
-    padding: 2.6rem;
-    margin: 2.456rem 0;
-}
+ .actions #reject-button,
+ #accept-button {
+     border: none;
+     background: #FFFFFF;
+     box-shadow: 0px 10px 20px #E9E9EA;
+     border-radius: 50%;
+     width: 5rem;
+     height: 5rem;
+     margin: 1.456rem 0;
+ }
 
-#reject-button:hover {
-    background: #FFE7EF;
-    box-shadow: 0px 10px 20px #EDD9DF;
-    cursor: pointer;
-}
+ #reject-button:hover {
+     background: #FFE7EF;
+     box-shadow: 0px 10px 20px #EDD9DF;
+     cursor: pointer;
+ }
 
-#accept-button:hover {
-    background: #DBFFF4;
-    box-shadow: 0px 10px 20px #CCF1E6;
-    cursor: pointer;
-}
+ #accept-button:hover {
+     background: #DBFFF4;
+     box-shadow: 0px 10px 20px #CCF1E6;
+     cursor: pointer;
+ }
 
-/* BADEGES */
+ /* BADEGES */
 
-.badge{
-    background-color: transparent;
-    width: 23.391rem;
-    height: 11.626rem;
-    position: absolute;
-    top: 6.5em;
-    left: 3.7em;
-    transform: rotate(-20deg); 
-}
+ .badge {
+     background-color: transparent;
+     width: 23.391rem;
+     height: 11.626rem;
+     position: absolute;
+     top: 6.5em;
+     left: 3.7em;
+     transform: rotate(-20deg);
+ }
 
-.end-text{
-    text-align: center;
-    border: whitesmoke solid 2px;
-    background-color: pink;
-    border-radius: 1.5rem;
-    height: 10.144rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem;
-    margin: 15rem 0 ;
-    font-size: 1rem;
-}
+ .end-text {
+     text-align: center;
+     border: whitesmoke solid 2px;
+     background-color: pink;
+     border-radius: 1.5rem;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 4rem;
+     margin: 50% 0;
+     font-size: 1rem;
+ }
 
-/* HIDDEN */
+ /* HIDDEN */
 
-.hidden {
-    display: none;
-}
+ .hidden {
+     display: none;
+ }

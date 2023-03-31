@@ -100,11 +100,11 @@
 
  .badge {
      background-color: transparent;
-     width: 23.391rem;
-     height: 11.626rem;
+     width: 12rem;
+     height: 6rem;
      position: absolute;
-     top: 6.5em;
-     left: 3.7em;
+     top: 4em;
+     left: 3em;
      transform: rotate(-20deg);
  }
 
